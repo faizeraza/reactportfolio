@@ -69,9 +69,10 @@ body.div{
   display: inline-flex;
   width: fit-content;
   height: fit-content;
+  
 }  
 .Home{
-  width: 45%; text-align: center; color: #A53DFF; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 35px; word-wrap: break-word;
+  width: 45%; text-align: center; color: #A53DFF; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 35px; word-wrap: break-word; text-shadow: 0px 0px 10px #fec45f;
 }
 .sub-4-1-1{
   flex-direction: row; justify-content: flex-start; align-items: flex-start; display: flex;
@@ -207,8 +208,8 @@ body.div{
 }
 
 .section-titles{
-  width: fit-content; color: #132238; font-family:'Poppins', sans-serif; font-size: 20px; font-weight: 400; line-height: 24px; word-wrap: break-word;
-  text-shadow: 0 0 10px #A53DFF ;
+  width: fit-content; color: relative; font-family:'Poppins', sans-serif; font-size: 20px; font-weight: 400; line-height: 24px; word-wrap: break-word;
+  text-shadow: 0px 0px 10px #A53DFF ;
 }
 .Projects{
   width: 100%;
@@ -223,7 +224,7 @@ body.div{
   display: inline-flex;
 }
 .numbering{
-  justify-content: end; width: fit-content; color: #556070; font-family:'Poppins', sans-serif; font-size: 18px; font-weight: 200; line-height: 24px; word-wrap: break-word;
+  justify-content: end; width: fit-content; color: relative; font-family:'Poppins', sans-serif; font-size: 18px; font-weight: 200; line-height: 24px; word-wrap: break-word;
   text-shadow: 0 0 8px #fec45f;margin-top: -2%;
 }
 .projectimg{
@@ -236,7 +237,7 @@ body.div{
   transition-duration: 1.6s;
 }
 .projectabout{
-  width: 70%; height: fit-content; color: #556070; font-family:'Poppins', sans-serif; font-size: 1vw; font-weight: 400; line-height: 24px; word-wrap: break-word; 
+  width: 70%; height: fit-content; color: relative; font-family:'Poppins', sans-serif; font-size: 1vw; font-weight: 400; line-height: 24px; word-wrap: break-word; 
   justify-content: center;margin-left: 10%;
 }
 .break {
@@ -244,7 +245,7 @@ body.div{
   height:0;
 }
 .stack{
-  width: 60%; height: fit-content; color: #556070; font-family:'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; word-wrap: break-word;
+  width: 60%; height: fit-content; color: relative; font-family:'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; word-wrap: break-word;
   justify-content: center;margin-left: 10%; text-align: center;flex-direction:row; flex-wrap: wrap;display: flex;margin-top: 2%;
 }
 .capsule{
@@ -284,7 +285,7 @@ body.div{
   box-shadow: 20px 20px 8px rgba(145, 152, 163, 0.09);
 }
 .skill-about{
-  width: 40%; height: fit-content; color: #556070; font-family:'Poppins', sans-serif; font-size: 1vw; font-weight: 400; line-height: 24px; word-wrap: break-word; 
+  width: 40%; height: fit-content; color: relative; font-family:'Poppins', sans-serif; font-size: 1vw; font-weight: 400; line-height: 24px; word-wrap: break-word; 
   justify-content: center;margin-right: 5%;margin-left: 5%;
 }
 /* article:first-of-type {

@@ -2,10 +2,10 @@ import './App.css';
 import Bubbles from './components/bubbles';
 import Nav from './components/nav';
 import Profile from './components/profile';
-import prof1 from './assets/profile.jpeg'; 
 import Skills from './components/skills';
 import Projects from './components/projects';
-
+import ShadowEffectsimg from './components/shadowEffectsimg';
+import SocialLinks from './components/sub7';
 function App() {
   return (
     <div className="App">
@@ -14,7 +14,8 @@ function App() {
       <header className="App-header">
         <div className='block1'>
           <Profile/>
-          <img className="shadowz"  src={prof1} alt="Profile" id="image-container"/>     
+          <ShadowEffectsimg/>
+          <SocialLinks/>  
         </div>
         <Skills/>
         <Projects/>

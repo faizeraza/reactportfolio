@@ -1,5 +1,5 @@
 import React from 'react';
-// import './componentprop.css';
+import ShadowEffectsdiv from '../components/shadowEffectsdiv';
 
 function Profile() {
   return (
@@ -24,38 +24,38 @@ function Profile() {
           </a>
         </div>
       </div>
-      <div className="shadowz" id="sub-6">
-        <div className="sectionSGPA">
-          <div id="section-1">7.8</div>
-          <div id="section-2">SGPA</div>
-        </div>
-        <div
-          style={{
-            width: '10px',
-            height: '0px',
-            transform: 'rotate(90deg)',
-            transformOrigin: '0 0',
-            border: '3px white solid',
-          }}
-        ></div>
-        <div className="sectionSolvedProblems">
-          <div id="section-1">250+</div>
-          <div id="section-2">Coding Problems Solved</div>
-        </div>
-        <div
-          style={{
-            width: '10px',
-            height: '0px',
-            transform: 'rotate(90deg)',
-            transformOrigin: '0 0',
-            border: '3px white solid',
-          }}
-        ></div>
-        <div className="contributions">
-          <div id="section-1">58</div>
-          <div id="section-2">Contributions</div>
-        </div>
-      </div>
+        <ShadowEffectsdiv id="sub-6">
+              <div className="sectionSGPA">
+                <div id="section-1">7.8</div>
+                <div id="section-2">SGPA</div>
+              </div>
+              <div
+                style={{
+                  width: '10px',
+                  height: '0px',
+                  transform: 'rotate(90deg)',
+                  transformOrigin: '0 0',
+                  border: '3px white solid',
+                }}
+              ></div>
+              <div className="sectionSolvedProblems">
+                <div id="section-1">250+</div>
+                <div id="section-2">Coding Problems Solved</div>
+              </div>
+              <div
+                style={{
+                  width: '10px',
+                  height: '0px',
+                  transform: 'rotate(90deg)',
+                  transformOrigin: '0 0',
+                  border: '3px white solid',
+                }}
+              ></div>
+              <div className="contributions">
+                <div id="section-1">58</div>
+                <div id="section-2">Contributions</div>
+            </div>
+        </ShadowEffectsdiv>
     </div>
   );
 }
