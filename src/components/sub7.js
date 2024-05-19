@@ -16,7 +16,7 @@ const SocialLinks = () => {
       <div style={{ width: '10px', height: '0px', transformOrigin: '0 0', border: '3px white solid' }}></div>
       <a href="https://linkedin.com/in/faizan-raza-a3a187203" style={{ width: 'inherit' }}>
         <div className="linkedin">
-          <svg fill="#000000" id="section-a" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.959 45.959" xmlSpace="preserve">
+          <svg fill="#FFF" id="section-a" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.959 45.959" xmlSpace="preserve">
             <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
             <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
             <g id="SVGRepo_iconCarrier">
