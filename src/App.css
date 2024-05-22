@@ -427,7 +427,7 @@ article {
   }
 } */
 
-@media all and (max-device-width: 1000px) { 
+@media all and (max-device-width: 600px) { 
     .App{
         background: var(--body_backgroud);
         min-height: 100vh;
