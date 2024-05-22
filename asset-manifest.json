@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.cf72fbc1.css",
+    "main.js": "/reactportfolio/static/js/main.d14ea59d.js",
+    "static/js/453.1407b060.chunk.js": "/reactportfolio/static/js/453.1407b060.chunk.js",
+    "static/media/AIassistant.gif": "/reactportfolio/static/media/AIassistant.8851064a1ffa706b9048.gif",
+    "static/media/GitHubDataAnalytics.png": "/reactportfolio/static/media/GitHubDataAnalytics.46c778a433650a3b96c7.png",
+    "static/media/profile.jpeg": "/reactportfolio/static/media/profile.0a9c99bfa98460f31e18.jpeg",
+    "static/media/workflow.png": "/reactportfolio/static/media/workflow.f94aaf6603185c0b05be.png",
+    "static/media/windows.png": "/reactportfolio/static/media/windows.63ffb28a622a04f27ec1.png",
+    "static/media/Sun.svg": "/reactportfolio/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/reactportfolio/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "index.html": "/reactportfolio/index.html",
+    "main.cf72fbc1.css.map": "/reactportfolio/static/css/main.cf72fbc1.css.map",
+    "main.d14ea59d.js.map": "/reactportfolio/static/js/main.d14ea59d.js.map",
+    "453.1407b060.chunk.js.map": "/reactportfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf72fbc1.css",
+    "static/js/main.d14ea59d.js"
+  ]
+}
