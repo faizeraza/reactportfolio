@@ -4,9 +4,9 @@ import aiAssistantGif from '../assets/AIassistant.gif';
 import githubAnalyticsImage from '../assets/GitHubDataAnalytics.png';
 import workflowImage from '../assets/workflow.png';
 
-function Projects() {
+function Projects({id}) {
   return (
-    <div className="Projects">
+    <div className="Projects" id={id}>
       <span className="section-titles">&gt; Projects<br /></span><br />
       <div className="VA">
         <div className="numbering">
@@ -20,7 +20,7 @@ function Projects() {
             </a>
           </div>
           <div data-glow className="stack">
-            <span>----Stack----</span><br />
+            <span className='st'>----Stack----</span><br />
             <div className="break"></div>
             <div className="capsule">Python</div>
             <div className="capsule">NLTK</div>
@@ -47,7 +47,7 @@ function Projects() {
             </a>
           </div>
           <div data-glow className="stack">
-            <span>----Stack----</span>
+          <span className='st'>----Stack----</span><br />
             <div className="break"></div>
             <div className="capsule">Python</div>
             <div className="capsule">Postgres</div>
@@ -72,7 +72,7 @@ function Projects() {
             </a>
           </div>
           <div data-glow className="stack">
-            <span>----Stack----</span>
+          <span className='st'>----Stack----</span><br />
             <div className="break"></div>
             <div className="capsule">AWS</div>
             <div className="capsule">Docker</div>

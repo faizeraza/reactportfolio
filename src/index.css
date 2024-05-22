@@ -1,3 +1,36 @@
+:root {
+  --body_backgroud: #ffffff;
+  --body-color: #000000;
+  --sub411_name: #132238;
+  --about: #556070;
+  --shadow: rgb(145, 152, 163, 0.09);
+  --section1_color: #424E60;
+  --section2_color: #697484;
+  --sectionb_color: #697484;
+  --section_titles_color: #132238;
+  --numbering_color:#556070;
+  --project_about: #556070;
+  --icons_color: black;
+  --st_color: #556070;
+}
+[data-theme = "dark"]{
+  --body_backgroud: #000000;
+  --body-color: #ffffff;
+  --sub411_name: #ffffff;
+  --about: #ffffff;
+  --shadow: rgb(54, 54, 54, 0.5);
+  --section1_color: whitesmoke;
+  --section2_color: white;
+  --sectionb_color: white;
+  --section_titles_color: white;
+  --numbering_color:white;
+  --project_about: white;
+  --icons_color: white;
+  --st_color: white;
+}
+/* * {
+  transition: all 0.2s ease-in-out;
+} */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

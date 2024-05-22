@@ -1,18 +1,18 @@
 import React from 'react';
-// import './componentprop.css';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Nav() {
   return (
     <div className="nav">
-      <div className="Home">
-        &gt;home.
-      </div>
-      <div className="Home">
-        &gt;skills..
-      </div>
-      <div className="Home">
-        &gt;projects...
-      </div>
+      <AnchorLink className="Home" href="#home">
+        <button>&gt;home.</button>
+      </AnchorLink>
+      <AnchorLink className="Home" href="#skills">
+        <button>&gt;skills..</button>
+      </AnchorLink>
+      <AnchorLink className="Home" href="#projects">
+        <button>&gt;projects...</button>
+      </AnchorLink>
     </div>
   );
 }
