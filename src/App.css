@@ -427,7 +427,7 @@ article {
   }
 } */
 
-@media all and (max-device-width: 600px) { 
+@media screen and (max-device-width: 480px) and (orientation: portrait){ 
     .App{
         background: var(--body_backgroud);
         min-height: 100vh;
@@ -510,10 +510,10 @@ article {
       flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex;
   }
   .sub-4-1-1-name{
-    color: var(--sub-4-1-1-name); font-size: 3vw; font-family:'Poppins', sans-serif; font-weight: 400px; line-height: 25px; word-wrap: break-word; display: inline;
+    color: var(--sub-4-1-1-name); font-size: 4vw; font-family:'Poppins', sans-serif; font-weight: 400px; line-height: 25px; word-wrap: break-word; display: inline;
   }
   .about{
-    color: var(--about); width:70%; font-size:2vw; font-weight: 300%; line-height: 24px; word-wrap: break-word;
+    color: var(--about); width:70%; font-size:3vw; font-weight: 300%; line-height: 24px; word-wrap: break-word;
   }
   .hello-button{
       padding: 05px 09px;
@@ -678,3 +678,68 @@ article {
       }
     } */
 }
+
+@media screen and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+    #image-container {
+        top: 5%;
+        margin-left: 7%;
+        width: 200px; 
+        height: 200px; 
+        position: absolute; 
+        background: linear-gradient(0deg, white 0%, white 100%); 
+        border-radius: 100px; 
+        object-fit:cover ;
+        perspective: 500px;
+        box-shadow :  20px 20px 10px var(--shadow);
+    }
+    #sub-7{
+        left: 78%; 
+        top: 10%;
+        width: fit-content;
+        position: absolute; 
+        background: rgba(237, 216, 255, 0.50); 
+        border-radius: 6px; 
+        border: 1px white solid; 
+        gap: 1px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+        font-size: 3vw;
+        margin-bottom: 1%;
+    }
+    .hello-button{
+        font-size: 3vw;
+    }
+    .sub-4-1-1-name{
+        font-size: 4vw;
+    }
+    .skill-set{
+        font-size: 3vw;
+    }
+}
+  
+  /* #### Mobile Phones Landscape #### */
+  @media screen and (max-device-width: 640px) and (orientation: landscape){
+    /* some CSS here */
+  }
+  
+  /* #### Mobile Phones Portrait or Landscape #### */
+  @media screen and (max-device-width: 640px){
+    /* some CSS here */
+  }
+  
+  /* #### iPhone 4+ Portrait or Landscape #### */
+  @media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    /* some CSS here */
+  }
+  
+  /* #### Tablets Portrait or Landscape #### */
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    /* some CSS here */
+  }
+  
+  /* #### Desktops #### */
+  @media screen and (min-width: 1024px){
+    /* some CSS here */
+  }

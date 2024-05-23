@@ -1,8 +1,5 @@
 import ShadowEffectsdiv from '../components/shadowEffectsdiv';
 import React from 'react';
-import githubIcon from '../assets/github-mark.png'; // Adjust the path to your SVG
-import hackerrankImg from '../assets/hackerrank.png'; // Adjust the path to your image
-import kaggleImg from '../assets/kaggle.png'; // Adjust the path to your image
 
 const SocialLinks = () => {
   return (
