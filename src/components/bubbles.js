@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 
-// import './componentprop.css';
 function Bubbles({classname,dimension}) {
   const cursorsRef = useRef();
   useEffect(() => {

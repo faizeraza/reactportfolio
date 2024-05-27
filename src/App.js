@@ -8,13 +8,8 @@ import SocialLinks from './components/sub7';
 import Bubbles from './components/bubbles';
 import DarkMode from './components/DarkMode';
 import ScrollButton from './components/ScrollButton'; 
-// import Bubble from './components/InteractiveElements';
 function App() {
-  // const dimensions = [
-  //   [50, 50], [15, 30], [10, 10], [5, 95], [0, 65], [50, 95],
-  //   [90, 90], [60, 40], [30, 15], [20, 10], [95, 20], [40, 0],
-  //   [95, 95], [50, 90]
-  // ];
+
   let classname='cursor';
   return (
     <div className="App">
