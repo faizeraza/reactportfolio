@@ -8,6 +8,8 @@ import SocialLinks from './components/sub7';
 import Bubbles from './components/bubbles';
 import DarkMode from './components/DarkMode';
 import ScrollButton from './components/ScrollButton'; 
+import SpiderMan from './components/Spiderman';
+import SoundControl from './components/SoundControl';
 function App() {
 
   let classname='cursor';
@@ -29,11 +31,13 @@ function App() {
       <Bubbles classname={"cursor1"} dimension={[50,90]}></Bubbles>
       <div className='main-container'>
         <div className='block1' id={'home'}>
+          <SpiderMan/>
           <Nav/>
           <Profile/>
           <ShadowEffectsimg/>
           <SocialLinks/>  
           <DarkMode/>
+          <SoundControl/>
         </div>
         <Skills id={'skills'}/>
         <Projects id={'projects'}/>

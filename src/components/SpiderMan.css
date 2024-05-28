@@ -1,0 +1,47 @@
+.spiderman-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.spiderman {
+  position: absolute;
+  transition: top 0.5s ease, left 0.5s ease;
+  font-size: 50px;
+}
+
+.throwing .web {
+  position: sticky;
+  height: 1px;
+  background-color: #A53DFF;
+  transform-origin: left center;
+  animation: throw-web 60ms forwards; /* Duration of the web-throwing animation */
+}
+
+.spin {
+  position: absolute;
+  transition: top 0.5s ease, left 0.5s ease, transform 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  filter: invert(var(--invert_color)) hue-rotate(var(--hue_rotate));
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes throw-web {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

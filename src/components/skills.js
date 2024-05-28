@@ -7,7 +7,19 @@ function Skills({id}) {
         <span className="numbering">01. Front-end</span>
         <span className="skill-about">
           I have Gained my front-end skills by practically applying them.<br />
-          The best Proof of Work of my front-end skills is this portfolio web-site.
+          The best Proof of Work of my front-end skills is this portfolio web-site:
+          <br/>.
+          <br/>
+          •HTML, CSS, JavaScript.
+          <br/>
+          •React Development.
+          <br/>
+          •Responsive Design.
+          <br/>
+          •UI/UX Design with Figma.
+          <br/>
+          •Practical Application: This portfolio website as proof of work.
+          <br/>
         </span>
         <article data-glow className="skill-set">
           <div className="bubble">
@@ -45,8 +57,38 @@ function Skills({id}) {
       <div className="front-end">
         <span className="numbering">02. Back-end</span>
         <span className="skill-about">
-          I have started my coding journey with java back in 2020.<br />
-          Library Management System was my first project just week after exploring Java.<br />
+        ✦I have started my coding journey with java back in 2020.<br />
+          Library Management System was my first project just week after exploring Java.<br/>
+          Now I can do these bellow mentioned things:
+          Languages: Python, Java, Node.js
+          <br/>
+          <br/>
+            •Web & API Development
+            <br/>
+            •Microservices Architecture
+            <br/>
+            •Containerization and Orchestration
+            <br/>
+            •SQL and NoSQL Databases (PostgreSQL, MongoDB)
+            <br/>
+            •Cloud Services (AWS, Google Cloud, Azure)
+            <br/>
+            •DevOps and CI/CD Pipelines
+            <br/>
+            •Security and Authentication (OAuth, JWT)
+            <br/>
+            •Performance Optimization and Scalability
+            <br/>
+            •Data Engineering and ETL Pipelines
+            <br/>
+            •Machine Learning Integration
+            <br/>
+            •E-commerce and Payment Systems
+            <br/>
+            •Custom Content Management Systems (CMS)
+            <br/>
+
+<br />
         </span>
         <article data-glow className="skill-set">
           <div className="bubble">
@@ -84,8 +126,35 @@ function Skills({id}) {
       <div className="front-end">
         <span className="numbering">03. Data-Eng.</span>
         <span className="skill-about">
-          About for DE
+        ✦Things I can do as a data engineer:
+          <br />
+          <br/>
+          •Data Integration and ETL Processes.
+          <br />
+          •Data Warehousing Design and Maintenance.
+          <br />
+          •Data Pipeline Automation.
+          <br />
+          •Data Visualization and Reporting.
+          <br />
+          •Cloud Data Management.
+          <br />
+          •Containerization and Deployment.
+          <br />
+          •Real-Time Data Processing.
+          <br />
+          •Data Quality and Validation.
+          <br />
+          •Scalability and Performance Optimization.
+          <br />
+          •Data Backup and Recovery.
+          <br />
+          •Secure Data Management.
+          <br />
+          •Custom Data Solutions.
+          <br />
         </span>
+        
         <article data-glow className="skill-set">
           <div className="bubble">
             <article data-glow>

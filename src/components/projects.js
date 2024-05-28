@@ -3,6 +3,8 @@ import windowsImage from '../assets/windows.png';
 import aiAssistantGif from '../assets/AIassistant.gif';
 import githubAnalyticsImage from '../assets/GitHubDataAnalytics.png';
 import workflowImage from '../assets/workflow.png';
+import ZenHome from '../assets/ZenHome.jpg';
+import Sakha from '../assets/Sakha.jpg';
 
 function Projects({id}) {
   return (
@@ -84,6 +86,32 @@ function Projects({id}) {
         </div>
         <span>
           <img className="projectimg" src={workflowImage} alt="demo GDA" />
+        </span>
+      </div>
+      <div className="VA">
+        <div className="numbering">
+          <span>03. Zen (AI based Stress Analyzer)</span>
+        </div>
+        <div>
+          <div className="projectabout">
+          An application that gamifies stress/anxiety/depression management<br/> in an actionable manner to provide relief.<br />
+          We wanted to help people with stress/anxiety/depression realise their<br/> ability to take control of their condition and take actionable steps to obtain a positive impact on their mental health.
+            <a href="https://github.com/darshandevelopes/Zen/tree/main/Zen">
+              <button className="hello-button">more.. </button>
+            </a>
+          </div>
+          <div data-glow className="stack">
+          <span className='st'>----Stack----</span><br />
+            <div className="break"></div>
+            <div className="capsule">React Native</div>
+            <div className="capsule">Gemini API</div>
+            <div className="capsule">Figma</div>
+            <div className="capsule">Android Studio</div>
+            <div className="capsule">Genymotion</div>
+          </div>
+        </div>
+        <span>
+          <img className="projectimg" src={ZenHome} alt="Home Page" />
         </span>
       </div>
     </div>

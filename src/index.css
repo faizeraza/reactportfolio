@@ -12,6 +12,9 @@
   --project_about: #556070;
   --icons_color: black;
   --st_color: #556070;
+  --brightness_value:100%;
+  --invert_color:0;
+  --hue_rotate:0deg;
 }
 [data-theme = "dark"]{
   --body_backgroud: #000000;
@@ -27,6 +30,10 @@
   --project_about: white;
   --icons_color: white;
   --st_color: white;
+  --brightness_value:30%;
+  --invert_color:1;
+  --hue_rotate:180deg;
+
 }
 /* * {
   transition: all 0.2s ease-in-out;

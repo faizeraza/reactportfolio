@@ -206,7 +206,7 @@ body.div{
 }
 .section-titles{
     width: fit-content; color: var(--section_titles_color); font-family:'Poppins', sans-serif; font-size: 20px; font-weight: 400; line-height: 24px; word-wrap: break-word;
-    text-shadow: 0 0 10px #A53DFF ;
+    text-shadow: 0 0 10px #A53DFF ; position: sticky;
 }
 .Projects{
     width: 100%;
@@ -222,11 +222,11 @@ body.div{
 }
 .numbering{
     justify-content: end; width: fit-content; color: var(--numbering_color); font-family:'Poppins', sans-serif; font-size: 18px; font-weight: 200; line-height: 24px; word-wrap: break-word;
-    text-shadow: 0 0 8px #fec45f;margin-top: -2%;
+    text-shadow: 0 0 8px #fec45f;margin-top: -2%; position: sticky;
 }
 .projectimg{
     margin-left: 10%; width: 70%; height: 90%; border-radius: 25px; object-fit:cover ;
-    box-shadow :  20px 20px 10px rgba(43, 56, 76, 0.09); margin-bottom: 2%;
+    box-shadow :  20px 20px 10px rgba(43, 56, 76, 0.09); margin-bottom: 2%; position: sticky;
 }
 .projectimg:hover{
     transform: scale(1.03);
@@ -235,7 +235,7 @@ body.div{
 }
 .projectabout{
     width: 70%; height: fit-content; color: var(--project_about); font-family:'Poppins', sans-serif; font-size: 1vw; font-weight: 400; line-height: 24px; word-wrap: break-word; 
-    justify-content: center;margin-left: 10%;
+    justify-content: center;margin-left: 10%; position: sticky;
 }
 .break {
     flex-basis: 100%;
@@ -286,7 +286,7 @@ body.div{
 }
 .skill-about{
     width: 40%; height: fit-content; color: var(--project_about); font-family:'Poppins', sans-serif; font-size: 1vw; font-weight: 400; line-height: 24px; word-wrap: break-word; 
-    justify-content: center;margin-right: 5%;margin-left: 5%;
+    justify-content: center;margin-right: 5%;margin-left: 5%; position: sticky;
 }
 .iconColor{
   fill : var(--icons_color)
@@ -623,7 +623,7 @@ article {
       display: inline-flex;
   }
   .numbering{
-      justify-content: end; width: fit-content; color: var(--numbering_color); font-family:'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 24px; word-wrap: break-word;
+      justify-content: end; width: fit-content; color: var(--numbering_color); font-family:'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 24px; word-wrap: break-word; position: sticky;
   }
   .projectimg{
       margin-top: 2%; margin-left: 10%; width: 70%; height: 70%; border-radius: 25px; object-fit:cover ;

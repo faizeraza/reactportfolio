@@ -1,0 +1,21 @@
+.sound-control {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .mute-button {
+    padding: 10px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: #A53DFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .mute-button:hover {
+    background-color: #7e31b3;
+  }
+  
