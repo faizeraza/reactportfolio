@@ -4,7 +4,6 @@ import aiAssistantGif from '../assets/AIassistant.gif';
 import githubAnalyticsImage from '../assets/GitHubDataAnalytics.png';
 import workflowImage from '../assets/workflow.png';
 import ZenHome from '../assets/ZenHome.jpg';
-import Sakha from '../assets/Sakha.jpg';
 
 function Projects({id}) {
   return (

@@ -42,6 +42,11 @@ body.div{
     height: fit-content;
     width: fit-content;
 }
+.logo{
+    height: 32px;
+    width: 100px;
+    
+}
 .Home{
     width: 45%; text-align: center; color: #A53DFF; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 35px; word-wrap: break-word; text-shadow: 0px 0px 10px #fec45f;
 }
