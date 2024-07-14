@@ -43,8 +43,8 @@ body.div{
     width: fit-content;
 }
 .logo{
-    height: 32px;
-    width: 100px;
+    height: 20px;
+    width: 50px;
     
 }
 .Home{
@@ -163,7 +163,7 @@ body.div{
 }
 
 #section-a{
-    padding-top: 5px; padding-left: 20px; width: 60px; align-content: center; color: #424E60;
+    padding-top: 5px; padding-left: 20px; width: 60px; align-content: center; color: #424E60; 
 }
 
 #section-b{

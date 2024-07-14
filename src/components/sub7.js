@@ -4,7 +4,7 @@ import React from 'react';
 const SocialLinks = () => {
   return (
     <ShadowEffectsdiv id="sub-7">
-      <a href="https://github.com/faizeraza" style={{ width: 'inherit' }}>
+      <a href="https://github.com/faizeraza" style={{ width: 'inherit' ,textDecoration: 'none'}}>
         <div className="github">
           {/* <img src={githubIcon} alt="Github" id="section-a" /> */}
           <svg className="iconColor" id="section-a" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
@@ -14,7 +14,7 @@ const SocialLinks = () => {
         </div>
       </a>
       <div style={{ width: '10px', height: '0px', transformOrigin: '0 0', border: '3px white solid' }}></div>
-      <a href="https://linkedin.com/in/faizan-raza-a3a187203" style={{ width: 'inherit' }}>
+      <a href="https://linkedin.com/in/faizan-raza-a3a187203" style={{ width: 'inherit' , textDecoration: 'none'}}>
         <div className="linkedin">
           <svg className="iconColor" fill="#FFF" id="section-a" xmlns="http://www.w3.org/2000/svg" width="50" height="50" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.959 45.959" xmlSpace="preserve">
             <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
@@ -33,7 +33,7 @@ const SocialLinks = () => {
         </div>
       </a>
       <div style={{ width: '10px', height: '0px', transformOrigin: '0 0', border: '3px white solid' }}></div>
-      <a href="https://www.hackerrank.com/faizeraza4us" style={{ width: 'inherit' }}>
+      <a href="https://www.hackerrank.com/faizeraza4us" style={{ width: 'inherit' ,textDecoration: 'none'}}>
         <div className="hackerrank">
           {/* <img id="section-a" src={hackerrankImg} alt="hackerrank" /> */}
           <svg className="iconColor" id="section-a" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 32 32">
@@ -43,7 +43,7 @@ const SocialLinks = () => {
         </div>
       </a>
       <div style={{ width: '10px', height: '0px', transformOrigin: '0 0', border: '3px white solid' }}></div>
-      <a href="https://www.kaggle.com/mohammadfaizanraza" style={{ width: 'inherit' }}>
+      <a href="https://www.kaggle.com/mohammadfaizanraza" style={{ width: 'inherit' ,textDecoration: 'none' }}>
         <div className="kaggle">
           {/* <img id="section-a" src={kaggleImg} alt="kaggle" /> */}
           <svg className="iconColor" id="section-a" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 32 32">

@@ -4,12 +4,12 @@ import logo from "../assets/logo-no-background.png";
 function Nav() {
   return (
     <div className="nav">
-      <AnchorLink href="#home">
+      {/* <AnchorLink href="#home">
         <img src={logo} alt='logo' className='logo'></img>
-      </AnchorLink>
-      {/* <AnchorLink className="Home" href="#home">
-        <button>&gt;home.</button>
       </AnchorLink> */}
+      <AnchorLink className="Home" href="#home">
+        <button>&gt;mfr.</button>
+      </AnchorLink>
       <AnchorLink className="Home" href="#skills">
         <button>&gt;skills..</button>
       </AnchorLink>
