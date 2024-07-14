@@ -19,7 +19,7 @@ function Profile() {
           <a href="mailto:faizeraza4us@gmail.com">
             <button className="hello-button">Say Hello!</button>
           </a>
-          <a href="https://drive.google.com/file/d/1xUth9Kbq8MSvyuGq1mxY34FACvoOzrL3/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1WiupmzM0Nc5uNfEegByPcG3Z6Vtd3xuC/view?usp=sharing">
             <button className="hello-button" style={{margin:'10px'}}>My Resume</button>
           </a>
         </div>
