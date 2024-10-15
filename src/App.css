@@ -432,7 +432,7 @@ article {
   }
 } */
 
-@media screen and (max-device-width: 480px) and (orientation: portrait){ 
+@media screen and (max-device-width: 1080px) and (orientation: portrait){ 
     .App{
         background: var(--body_backgroud);
         min-height: 100vh;
